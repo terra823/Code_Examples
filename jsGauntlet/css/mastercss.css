@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.scenario {
+	padding:15px;
+	background-color:#F2F2F2;
+	border:1px solid #333;
+	width:50%;
+	margin:20px 0px 0px 0px;
+}
+
+h1 {
+	font-size:16px;
+	padding:0px;
+	margin:0px 0px 5px 0px;
+}
+
+
+p {
+	padding:0px;
+	margin:10px 0px 8px 0px;
+}
+
+.attention {
+	color:#F00;	
+}

@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: auto 0px; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+body {
+	width:1024px;
+	height:768px;
+	margin:0em auto 0em auto;
+	line-height: 1;
+	font-family:Gotham, Georgia, "Times New Roman", Times, serif;
+	background-color:#fffffb;}
+	
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+	
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+a{color:#FFF;}
+#navlist li a{color:#006; font-size:10px; font-family: Gotham, Arial, Verdana, Helvetica, san-serif; text-decoration:none;}
+
+
+/* Header Section */
+#benetton{
+	padding: .75em 0em 0em 3.375em;
+	float:left;}
+
+#headerNav{
+	width:60.813em;
+	float:left;
+	background-color:#096;}
+
+#secondaryNav{
+	width:105px;
+	height:10px;
+	margin:78px 0px 0px 608px;
+	float:left;
+	background-color:#606;}	
+
+/*Menu*/	
+
+#nav{
+	width:975px;;
+	padding:4.938em 0em 0em 7em;
+	float:left;
+	font-size:0.625em;}
+
+#container {
+  position: relative;
+  float:left;}
+
+#menu{	
+	maring:0px 6px 0px 0px;
+	padding: 0;
+	float:left;}
+	
+#menu li{
+	padding:7px 0px 7px 0px;
+	float: left;
+	list-style: none;
+	font: 10px Gotham, Arial, Verdana, Helvetica, san-serif;}
+
+#menu li a{
+	width:144px;
+	height:15px;
+	padding:7px 0px 0px 8px;
+	margin:0px 8px 0px 0px;
+	display: block;
+	background:#bdc52e;
+	text-decoration: none;
+	border: none;
+	color: #FFF;
+	white-space: nowrap;}
+
+#menu li a:hover{	
+	background: #;
+	color:#fff;}
+		
+#menu li ul{	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	border: none;}
+		
+#menu li ul li{	
+	float: none;
+	display: inline;
+	color:#fff;}
+		
+#menu li ul li a{	
+	width:144px;
+	background:#f2f4d4;
+	color:#006;}
+		
+#menu li ul li a:hover{	
+	background: #924077;
+	color:#fff;} 
+
+/* Stage */
+
+#tag{
+	margin:14px 0px 0px 0px;
+	float:left;
+	z-index:0;
+	position:absolute;}
+
+#mainPhoto{
+	z-index:200;}	
+	
+#stage{
+	width:952px;
+	height:421px;
+	margin: 0.688em 0em 0em 4.438em;
+	float:left;
+	overflow:hidden;}
+	
+#video{
+	width:952px;
+	height:421px;
+	margin: 0.688em 0em 0em 4.438em;
+	padding-left:35px;
+	float:left;
+	overflow:hidden;}		
+
+#intro{
+	width:952px;
+	height:421px;
+	padding-top:30px;
+	float:left;
+	overflow:hidden;}
+	
+#background{
+	width:952px;
+	height:421px;
+	z-index:10;}		
+	
+#intro{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/intro.jpg);}
+		
+#overview{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/brandingBG.png);}
+	
+#typeFaces{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/brandingBG.png);}
+	
+#logo{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/brandingBG.png);}
+	
+#palette{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/brandingBG.png);}	
+	
+#icons{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/brandingBG.png);}
+	
+#foundries{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/foundriesBg.png);}
+
+#bags{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/bagsBg.png);}
+
+#tags{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/tagsBg.png);}	
+
+#auction{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/auction.png);}	
+
+#interactiveScreen{
+	width:952px;
+	height:421px;
+	background-image:url(../assets/interactiveScreen.png);}					
+				
+#clickable{
+	padding:70px 0px 0px 500px;
+	float:right;
+	opacity:.8;}		
+	
+#seek{
+	margin:99px 0px 0px 254px;}
+	
+
+#speak{
+	margin:5px 0px 0px 74px;}		
+	
+#navlist li{
+	display: inline;
+	text-align:center;
+	list-style-type: none;
+	margin:350px 0px 0px 40px;
+	float:left;}	

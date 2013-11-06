@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS Gauntlet</title>
+
+<script src="js/jquery.js" type="text/javascript"></script>  
+<script src="js/masterjs.js" type="text/javascript"></script>  
+<link href="css/mastercss.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+<div class="scenario" id="scenarioX">
+<h1>Setup</h1>
+  <p>Include your own external javascript file</p>
+  <p>Include jquery</p>
+</div>
+
+<div class="scenario" id="hideMe">
+<h1>Variables & Functions</h1>
+  <p>Create each of the following variables: String, Integer, and Array in your external javascript file</p>
+  <p><a href="#" onClick="alertString();">When you click me, alert the string's value</a></p>
+  <p><a href="#" onmouseover="alertInteger();">When you mouse over me, alert the integer's value</a></p>
+  <p><a href="#" onmouseover="alertArray();">When you mouse away from me, alert one of the values in your array</a></p>
+  <p><a href="#" onClick="textChange();" div id="textChange"> When you click me, change my text match the value of your string</a></p>
+  <p><a href="#" onClick="addInteger();">When you click me, add plus 1 to the value of your integer and then alert the new value</a></p>
+  <p><a href="#" onClick="indexPosition();">When you click me, change the value of one of your array index position values then alert the new value</a></p>
+  <p><a href="#" onClick="alertInput();">Type something into the below input field. When you click me, alert the value.</a></p>
+  <input type="text" name="info" id="info" value="" />
+  <p><a href="#" onClick="hideDiv();">When you click me, hide the entire parent div I'm contained in</a></p>
+</div><!--scenarioX-->
+
+<div class="scenario">
+<h1>Conditional Logic</h1>
+	<p><a href="#" onClick="alertYear();">When you click me, if the value of the input field is not the current year, alert "NOT CURRENT YEAR", else, alert "CORRECT"</a></p>
+	<input type="text" name="cYear" id="cYear" value="" />
+	<p><a href="#" onClick="alertAge();">When you click me, if you are under 18 I'll alert "TOO YOUNG". If you're older than 18, I'll alert "YOUR IN".</a></p>
+	<input type="text" name="age" id="age" value="" />
+	<p><a href="#" onClick="numberSum();">When you click me, If the sum of the below numbers is over 100, alert "Greater than 100", else, alert "Less than 100"</a></p> 
+    <input type="text" name="num1" id="num1" value="" /> plus <input type="text" name="num2" id="num2" value="" />  
+</div><!--scenario-->
+
+
+<div class="scenario" id="scenarioA">
+<h1 id="reddie" >JQUERY</h1>
+  <p><a href="javascript:void(0);" onClick="slideRight();" div id= "slide1">When you click me, slide my parent div to the right</a></p>
+  <p><a href="javascript:void(0);" onClick="fadeDivOut();">When you click me, fade the FIRST div in this document out</a></p>
+  <p><a href="javascript:void(0);" onClick="fadeDivIn();">When you click me, fade the FIRST div in this docoment in</a></p>
+  <p><a href="javascript:void(0);" onClick="turnRed();">When you click me, add the "attention" class to the H1 tag in this div resulting in the H1 text turning red.</a></p>
+  
+  <p><a href="javascript:void(0);" onClick="slideOut();">When you click me, slide the FIRST div in this document out</a></p>
+  <p><a href="javascript:void(0);" onClick="slideBack();">When you click me, slide the FIRST div in this docoment in</a></p>
+  <ul>
+  <li><a href="javascript:void(0);" onClick="hideOpt();">option - when you click me, hide any exposed sub options</a></li>
+  <li><a href="javascript:void(0);" onClick="hideOpt2();">option - when you click me, hide any exposed sub options and slide my sub options into view</a>
+  	<ul>
+    	<li class="subOption1"><a href="javascript:void(0);">sub-option</a></li>
+        <li class="subOption1"><a href="javascript:void(0);">sub-option</a></li>
+        <li class="subOption1"><a href="javascript:void(0);">sub-option</a></li>
+    </ul></li>
+    
+  <li><a href="javascript:void(0);">option</a></li>
+  <li><a href="javascript:void(0);">option - when you click me, hide any exposed sub options and slide my sub options into view</a>
+  	<ul>
+    	<li><a href="javascript:void(0);">sub-option</a></li>
+        <li><a href="javascript:void(0);">sub-option</a></li>
+    </ul></li>  
+    </ul>
+    
+
+  <p><a href="javascript:void(0);" onClick="textSwap();" id="target2">When you click me, swap my text with the target div's text below</a></p>
+  <p><div id="target">Awaiting the swap...</div></p>
+  
+</div><!--scenarioA-->
+
+
+
+
+</body>
+</html>
